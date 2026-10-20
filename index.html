@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#f6f4f0">
+  <title>Palette Lab 3.0 | Acrylic Colour Mixer</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="catalog.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+<div class="page-shell">
+  <header class="topbar">
+    <div class="brand"><div class="brand-symbol"><i></i><i></i><i></i></div><div><strong>Palette Lab</strong><span>YOUR PERSONAL ACRYLIC MIXER</span></div></div>
+    <div class="top-actions"><span class="engine-pill" id="engine-pill"><span class="status-dot"></span><span id="engine-label">Getting ready</span></span><button type="button" class="text-button" id="about-button">About</button></div>
+  </header>
+  <div class="heading-row">
+    <div><p class="eyebrow">PALETTE LAB / VERSION 3.0</p><h1>Find your next colour.</h1><p class="lede">Explore the Liquitex catalogues, mix shades from your own tubes, or discover the closest recipe for a colour you love.</p></div>
+    <div class="header-stats"><div><strong id="owned-count">15</strong><span>OWNED PAINTS</span></div><div><strong id="catalog-count">203</strong><span>IN THE CATALOGUE</span></div></div>
+  </div>
+  <nav class="mobile-jumps" aria-label="Jump to app section"><a href="#library-panel">Paints</a><a href="#preview-panel">Preview</a><a href="#matcher-panel">Match</a><a href="#mix-panel">Mix</a><a href="#saved-panel">Saved</a></nav>
+  <div class="section-controls"><span>YOUR WORKSPACE</span><div><button id="expand-all" type="button">Expand all</button><button id="collapse-all" type="button">Collapse all</button></div></div>
+  <div class="workspace">
+    <aside class="panel library-panel" id="library-panel" aria-label="Paint library">
+      <div class="panel-heading"><div><p class="eyebrow">01 / THE COLLECTION</p><h2>Paint library</h2></div><button class="small-add" id="add-paint" type="button" title="Add a custom paint" aria-label="Add a custom paint">+</button></div>
+      <div class="range-tabs" role="group" aria-label="Browse paint range">
+        <button type="button" class="range-tab active" data-tab="all">All</button>
+        <button type="button" class="range-tab" data-tab="BASICS">BASICS</button>
+        <button type="button" class="range-tab" data-tab="Regular">Regular</button>
+        <button type="button" class="range-tab" data-tab="Custom">Other</button>
+      </div>
+      <div class="search-wrap"><span aria-hidden="true">⌕</span><input id="search-paints" type="search" placeholder="Search name or colour code" autocomplete="off" aria-label="Search all paints"></div>
+      <div class="library-filters"><label><input id="filter-owned" type="checkbox"> Owned only</label><label><input id="filter-enabled" type="checkbox"> Included only</label></div>
+      <div class="library-caption"><span id="visible-count">Showing all colours</span><span class="legend"><span class="legend-dot"></span>Owned <span class="legend-divider"></span> Included in matching</span></div>
+      <p class="library-help">Tick <strong>Owned</strong> for tubes in your paint box. Turn <strong>Include</strong> off to keep a colour out of new mixes and matching. Both settings save automatically.</p>
+      <div class="paint-list" id="paint-list"></div>
+      <div class="library-actions"><button id="enable-visible" type="button" class="quiet-action">Include shown</button><button id="disable-visible" type="button" class="quiet-action">Exclude shown</button></div>
+      <div class="library-bottom"><button class="quiet-action" type="button" id="export-data">Export backup ↗</button><button class="quiet-action" type="button" id="import-data">Import backup ↗</button><input type="file" id="import-file" accept=".json,application/json" hidden></div>
+    </aside>
+    <main class="work-area">
+      <section class="panel preview-panel" id="preview-panel" aria-label="Live colour preview">
+        <div class="preview-topline"><div><p class="eyebrow">02 / THE COLOUR STUDY</p><h2>Live preview</h2></div><span class="preview-hint">Approximate screen colours</span></div>
+        <div class="preview-grid">
+          <div class="swatch-block"><div class="big-swatch" id="result-swatch"><div class="swatch-overlay"><span>YOUR MIXTURE</span><strong id="result-hex">#---- --</strong></div></div><div class="swatch-caption"><div><strong>Predicted mixture</strong><small>From your paint recipe</small></div><button class="icon-button" id="copy-hex" title="Copy mixture HEX" aria-label="Copy mixture hex">⧉</button></div></div>
+          <div class="swatch-block"><div class="big-swatch" id="target-swatch"><div class="swatch-overlay"><span>TARGET COLOUR</span><strong id="target-hex-display">#9478A4</strong></div></div><div class="swatch-caption"><div><strong>Target shade</strong><small>Pick a colour to match</small></div><label class="color-circle" title="Pick target colour"><input type="color" id="target-picker" value="#9478A4" aria-label="Pick target colour"></label></div></div>
+        </div>
+        <div class="target-tools"><label>Target HEX <input type="text" id="target-hex-input" spellcheck="false" maxlength="7" value="#9478A4"></label><span class="match-note" id="match-distance"></span></div>
+        <details class="photo-details"><summary>Sample a colour from a reference photo <span>+</span></summary><div class="photo-content"><label for="photo-file" class="photo-upload">Choose a photo <input id="photo-file" type="file" accept="image/*" hidden></label><div id="photo-preview" class="photo-preview" hidden><canvas id="photo-canvas" title="Tap to sample a colour" aria-label="Tap image to choose target colour"></canvas><p>Tap or click a point on the image. Photos remain on your device.</p></div></div></details>
+      </section>
+      <section class="panel matcher-panel" id="matcher-panel" aria-label="Automatic colour matching">
+        <div class="matcher-heading"><div><p class="eyebrow">03 / FIND A RECIPE</p><h2>Colour match</h2></div><span class="tiny-label">SMART SEARCH</span></div>
+        <p class="section-help">Choose which collection the matcher may use. It will search promising combinations instead of testing every possible combination. Four-colour matching uses a bounded search to stay responsive on phones.</p>
+        <div class="matcher-controls"><label class="field-label">Find using<select id="match-scope"><option value="owned">My owned paints</option><option value="BASICS">Liquitex BASICS</option><option value="Regular">Liquitex Regular</option><option value="all">All included colours</option></select></label><label class="field-label">Maximum ingredients<select id="max-ingredients"><option value="4">Up to 4 paints</option><option value="3">Up to 3 paints</option><option value="2">Up to 2 paints</option></select></label></div>
+        <div class="matcher-bottom"><label class="check-small"><input type="checkbox" id="special-finishes"> Allow metallic / fluorescent paints</label><button type="button" class="primary-button" id="find-match">Find closest mix <span>↗</span></button></div>
+        <div class="search-status" id="match-status" role="status" aria-live="polite">Your excluded colours will never appear in results.</div>
+        <a id="see-match" class="see-match" href="#mix-panel" hidden>View loaded recipe in mixing bowl ↓</a><div id="match-results" class="match-results"></div>
+      </section>
+      <section class="panel mix-panel" id="mix-panel" aria-label="Mixing bowl">
+        <div class="mix-heading"><div><p class="eyebrow">04 / EXPERIMENT</p><h2>Mixing bowl <span id="ingredient-count" class="count-bubble">0</span></h2></div><button class="quiet-action" type="button" id="clear-mix">Clear bowl</button></div>
+        <div class="mix-intro"><span class="tiny-bar" aria-hidden="true"></span><p>Adjust the <strong>parts</strong> of each colour with the sliders. The numbers are ratios, so 2 parts means twice as much as 1 part.</p></div>
+        <div id="mix-list" class="mix-list"></div><div id="empty-mix" class="empty-mix" hidden><strong>Your bowl is empty</strong><p>Choose a paint from the library to get started.</p></div>
+        <div class="recipe-footer"><div><span class="eyebrow">CURRENT RECIPE</span><div id="recipe-summary" class="recipe-summary"></div></div><div class="footer-actions"><button class="secondary-button" type="button" id="reset-mix">Reset</button><button class="primary-button" type="button" id="save-mix">Save recipe +</button></div></div>
+      </section>
+      <section class="panel saved-panel" id="saved-panel" aria-label="Saved recipes"><div class="saved-header"><div><p class="eyebrow">05 / YOUR NOTEBOOK</p><h2>Saved recipes <span id="saved-count" class="count-bubble">0</span></h2></div></div><div id="saved-grid" class="saved-grid"></div></section>
+      <footer class="footer">Colour matching uses approximate on-screen swatches, not measured paint spectra. Test recipes with real paint. <span>Your library and recipes save in this browser. Export a backup before moving devices or clearing browser data. Mixing engine by <a href="https://scrtwpns.com/mixbox/" target="_blank" rel="noopener">Secret Weapons (Mixbox)</a>, <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>.</span></footer>
+    </main>
+  </div>
+</div>
+<dialog id="paint-dialog" class="modal"><form id="paint-form"><div class="modal-heading"><div><p class="eyebrow">YOUR COLOUR DATA</p><h2 id="modal-title">Paint</h2></div><button type="button" id="close-paint" class="modal-x" aria-label="Close">×</button></div><input id="edit-paint-id" type="hidden"><label class="field-label">Paint name<input id="paint-name" required maxlength="80"></label><label class="field-label">Brand / range<input id="paint-brand" required maxlength="80" placeholder="e.g. Turner U-35"></label><div class="two-fields"><label class="field-label">Approximate HEX<input id="paint-hex" maxlength="7" required spellcheck="false"></label><label class="field-label">Pick visually<span class="picker-large"><input id="paint-picker" type="color" aria-label="Select the paint colour"></span></label></div><label class="field-label">Relative tinting strength: <span id="strength-value">1.0×</span><input type="range" id="paint-strength" min="0.3" max="3" value="1" step="0.1"></label><p class="modal-tip">These are approximate starting colours. You can calibrate them after physical swatch tests. The catalogue itself will remain unchanged if you reset the app.</p><div class="modal-actions"><button id="delete-paint" class="destructive-link" type="button" hidden>Delete custom</button><button id="cancel-paint" class="secondary-button" type="button">Cancel</button><button type="submit" class="primary-button">Save changes</button></div></form></dialog>
+<dialog id="about-dialog" class="modal"><div class="modal-heading"><div><p class="eyebrow">ABOUT</p><h2>About Palette Lab 3.0</h2></div><button type="button" class="modal-x" id="close-about" aria-label="Close">×</button></div><p>Built as a <strong>local, static web app</strong>. Works without a website or account, and the same files can later be hosted on a website. Everything is stored on this device in browser storage. Export your backup to move between devices.</p><p>The Liquitex Japan BASICS page lists 80 colours. The May 2026 Regular Type chart lists 122 entries, although the Japanese distributor advertises 119 saleable colours. Palette Lab includes all 122 chart entries so none are silently omitted; availability must be checked before purchase.</p><p>Digital HEX starting values are <strong>illustrative estimates</strong>, not manufacturer-measured spectral or calibrated swatch data. Results are starting points, not guaranteed mixing instructions. Metallic, fluorescent and iridescent finishes cannot be faithfully modelled by RGB values.</p><p>The <strong>Mixbox</strong> mixing engine is loaded automatically from a local copy (<code>mixbox.js</code>) when available, otherwise from the official author website (requires internet). For fully offline mixing, run the included one-time Windows installer to save a local copy. If loading fails, the app uses its simpler RYB approximation. Mixbox © 2022 Secret Weapons, authors Sarka Sochorova and Ondrej Jamriska, licensed <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a> for non-commercial uses. If hosting publicly, check licensing terms.</p><p>Catalogue references: <a href="https://www.jp.liquitex.com/products/basics/range/colors/" target="_blank" rel="noopener">Japanese BASICS catalogue</a> · <a href="https://www.jp.liquitex.com/wp-content/uploads/2026/05/LQ-Regular-CC-202605.pdf" target="_blank" rel="noopener">Regular chart</a>.</p><button id="done-about" type="button" class="primary-button">Close</button></dialog>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

@@ -1,0 +1,204 @@
+﻿range,code,name,brand,hex,kind,accuracy
+BASICS,,Light Portrait Pink,Liquitex,#EDABB2,standard,approximate
+BASICS,,Medium Magenta,Liquitex,#BA438A,standard,approximate
+BASICS,,Quinacridone Magenta,Liquitex,#9C276D,standard,approximate
+BASICS,,Cadmium Red Deep Hue,Liquitex,#A91F37,standard,approximate
+BASICS,,Naphthol Crimson,Liquitex,#AE2637,standard,approximate
+BASICS,,Cadmium Red Light Hue,Liquitex,#DB4631,standard,approximate
+BASICS,,Cadmium Orange Hue,Liquitex,#E57928,standard,approximate
+BASICS,,Vivid Red Orange,Liquitex,#F0672A,standard,approximate
+BASICS,,Cadmium Yellow Medium Hue,Liquitex,#F0BF22,standard,approximate
+BASICS,,Brilliant Yellow Green,Liquitex,#ABD844,standard,approximate
+BASICS,,Light Green Permanent,Liquitex,#5EA944,standard,approximate
+BASICS,,Green Deep Permanent,Liquitex,#216A3B,standard,approximate
+BASICS,,Phthalocyanine Green,Liquitex,#095D4B,standard,approximate
+BASICS,,Hooker's Green Hue Permanent,Liquitex,#3C7045,standard,approximate
+BASICS,,Bright Aqua Green,Liquitex,#38B6A1,standard,approximate
+BASICS,,Light Blue Permanent,Liquitex,#69B6CE,standard,approximate
+BASICS,,Brilliant Blue,Liquitex,#007EB4,standard,approximate
+BASICS,,Cerulean Blue Hue,Liquitex,#388EBD,standard,approximate
+BASICS,,Light Blue Violet,Liquitex,#858FCA,standard,approximate
+BASICS,,Cobalt Blue Hue,Liquitex,#3766A8,standard,approximate
+BASICS,,Phthalocyanine Blue,Liquitex,#05446A,standard,approximate
+BASICS,,Ultramarine Blue,Liquitex,#373E9C,standard,approximate
+BASICS,,Prism Violet,Liquitex,#7552AF,standard,approximate
+BASICS,,Dioxazine Purple,Liquitex,#342465,standard,approximate
+BASICS,,Brilliant Purple,Liquitex,#8159AC,standard,approximate
+BASICS,,Raw Sienna,Liquitex,#B98144,standard,approximate
+BASICS,,Red Oxide,Liquitex,#99503C,standard,approximate
+BASICS,,Burnt Sienna,Liquitex,#99502B,standard,approximate
+BASICS,,Yellow Oxide,Liquitex,#B78B35,standard,approximate
+BASICS,,Bronze Yellow,Liquitex,#937132,standard,approximate
+BASICS,,Raw Umber,Liquitex,#675542,standard,approximate
+BASICS,,Burnt Umber,Liquitex,#594131,standard,approximate
+BASICS,,Ivory Black,Liquitex,#252526,standard,approximate
+BASICS,,Mars Black,Liquitex,#201D1D,standard,approximate
+BASICS,,Payne's Gray,Liquitex,#454C60,standard,approximate
+BASICS,,Neutral Gray 5,Liquitex,#858585,standard,approximate
+BASICS,,Titanium White,Liquitex,#F7F5EE,standard,approximate
+BASICS,,Copper,Liquitex,#B3714D,metallic,approximate
+BASICS,,Gold,Liquitex,#C8A652,metallic,approximate
+BASICS,,Silver,Liquitex,#BFC2CA,metallic,approximate
+BASICS,,Pearl White,Liquitex,#E9E7E0,metallic,approximate
+BASICS,,Alizarin Crimson Hue Permanent,Liquitex,#811D39,standard,approximate
+BASICS,,Cadmium Red Medium Hue,Liquitex,#CB342D,standard,approximate
+BASICS,,Unbleached Titanium,Liquitex,#D3C29E,standard,approximate
+BASICS,,Parchment,Liquitex,#DDD4BA,standard,approximate
+BASICS,,Naples Yellow Hue,Liquitex,#DDC990,standard,approximate
+BASICS,,Fluorescent Pink,Liquitex,#FF409A,fluorescent,approximate
+BASICS,,Fluorescent Red,Liquitex,#FF403A,fluorescent,approximate
+BASICS,,Fluorescent Orange,Liquitex,#FF8028,fluorescent,approximate
+BASICS,,Fluorescent Yellow,Liquitex,#FDF724,fluorescent,approximate
+BASICS,,Fluorescent Green,Liquitex,#A6F731,fluorescent,approximate
+BASICS,,Fluorescent Blue,Liquitex,#227DE5,fluorescent,approximate
+BASICS,,Deep Violet,Liquitex,#35244E,standard,approximate
+BASICS,,Cadmium Yellow Deep Hue,Liquitex,#EBAD25,standard,approximate
+BASICS,,Cadmium Yellow Light Hue,Liquitex,#F6DC39,standard,approximate
+BASICS,,Bronze,Liquitex,#97774B,metallic,approximate
+BASICS,,Pyrrole Red,Liquitex,#D52228,standard,approximate
+BASICS,,Prussian Blue Hue,Liquitex,#16344D,standard,approximate
+BASICS,,Primary Yellow,Liquitex,#F5C91C,standard,approximate
+BASICS,,Primary Red,Liquitex,#E63A42,standard,approximate
+BASICS,,Primary Blue,Liquitex,#226BAC,standard,approximate
+BASICS,,Rose Pink,Liquitex,#D6779B,standard,approximate
+BASICS,,Transparent Red,Liquitex,#B92B47,transparent,approximate
+BASICS,,Transparent Yellow,Liquitex,#E2B71E,transparent,approximate
+BASICS,,Lime Green,Liquitex,#ABD13C,standard,approximate
+BASICS,,Light Olive Green,Liquitex,#8D9D4A,standard,approximate
+BASICS,,Turquoise Blue,Liquitex,#2BA5AE,standard,approximate
+BASICS,,Green Gray,Liquitex,#88998A,standard,approximate
+BASICS,,Blue Gray,Liquitex,#8197A9,standard,approximate
+BASICS,,Purple Gray,Liquitex,#A79EAD,standard,approximate
+BASICS,,Iridescent Graphite,Liquitex,#696E75,metallic,approximate
+BASICS,,Transparent Mixing White,Liquitex,#EDEBE4,transparent,approximate
+BASICS,,Metallic Aqua Green,Liquitex,#4EAA99,metallic,approximate
+BASICS,,Metallic Purple,Liquitex,#8A5E96,metallic,approximate
+BASICS,,Metallic Blue,Liquitex,#4E7DAB,metallic,approximate
+BASICS,,Metallic Magenta,Liquitex,#B45685,metallic,approximate
+BASICS,,Metallic Yellow Gold,Liquitex,#D1A63D,metallic,approximate
+BASICS,,Metallic Burnt Orange,Liquitex,#BB7446,metallic,approximate
+BASICS,,Metallic Red,Liquitex,#BF4E49,metallic,approximate
+BASICS,,Metallic Green,Liquitex,#73965F,metallic,approximate
+Regular,001,Light Portrait Pink,Liquitex,#EDABB2,standard,approximate
+Regular,003,Medium Magenta,Liquitex,#BA438A,standard,approximate
+Regular,004,Quinacridone Magenta,Liquitex,#9C276D,standard,approximate
+Regular,006,Deep Magenta,Liquitex,#852D63,standard,approximate
+Regular,182,Muted Violet,Liquitex,#6B4E68,standard,approximate
+Regular,129,Quinacridone Crimson,Liquitex,#962B54,standard,approximate
+Regular,072,Permanent Alizarin Crimson Hue,Liquitex,#811D39,standard,approximate
+Regular,171,Cadmium-Free Red Deep,Liquitex,#AF2A35,standard,approximate
+Regular,181,Muted Pink,Liquitex,#AD6F83,standard,approximate
+Regular,130,Quinacridone Red Orange,Liquitex,#CC493A,standard,approximate
+Regular,007,Quinacridone Red,Liquitex,#BA2D4F,standard,approximate
+Regular,151,Pyrrole Red,Liquitex,#D52228,standard,approximate
+Regular,008,Naphthol Red Light,Liquitex,#D61836,standard,approximate
+Regular,009,Cadmium Red Medium,Liquitex,#CE3028,standard,approximate
+Regular,172,Cadmium-Free Red Medium,Liquitex,#C93639,standard,approximate
+Regular,010,Naphthol Crimson,Liquitex,#AE2637,standard,approximate
+Regular,150,Pyrrole Crimson,Liquitex,#AD1037,standard,approximate
+Regular,152,Pyrrole Orange,Liquitex,#ED5D26,standard,approximate
+Regular,012,Cadmium Red Light,Liquitex,#DC4029,standard,approximate
+Regular,173,Cadmium-Free Red Light,Liquitex,#E7523F,standard,approximate
+Regular,013,Scarlet Red,Liquitex,#E73D2E,standard,approximate
+Regular,014,Yellow Orange Azo,Liquitex,#E8A126,standard,approximate
+Regular,016,Cadmium Orange,Liquitex,#EA7922,standard,approximate
+Regular,174,Cadmium-Free Orange,Liquitex,#ED872D,standard,approximate
+Regular,017,Vivid Red Orange,Liquitex,#F0672A,standard,approximate
+Regular,175,Cadmium-Free Yellow Deep,Liquitex,#D8A424,standard,approximate
+Regular,019,Cadmium Yellow Medium,Liquitex,#F5C41B,standard,approximate
+Regular,176,Cadmium-Free Yellow Medium,Liquitex,#F0C523,standard,approximate
+Regular,020,Yellow Medium Azo,Liquitex,#FBE909,standard,approximate
+Regular,021,Yellow Light Hansa,Liquitex,#F6DC35,standard,approximate
+Regular,022,Cadmium Yellow Light,Liquitex,#F6DD28,standard,approximate
+Regular,177,Cadmium-Free Yellow Light,Liquitex,#EEDA39,standard,approximate
+Regular,086,Naples Yellow Hue,Liquitex,#DDC990,standard,approximate
+Regular,076,Peach,Liquitex,#E5A18B,standard,approximate
+Regular,155,Green Gold,Liquitex,#82942F,standard,approximate
+Regular,023,Brilliant Yellow Green,Liquitex,#ABD844,standard,approximate
+Regular,024,Vivid Lime Green,Liquitex,#94D431,standard,approximate
+Regular,025,Light Green Oxide,Liquitex,#7DAB69,standard,approximate
+Regular,026,Light Emerald Green,Liquitex,#59B77C,standard,approximate
+Regular,027,Permanent Green Light,Liquitex,#049E48,standard,approximate
+Regular,028,Emerald Green,Liquitex,#188D53,standard,approximate
+Regular,029,Permanent Green Deep,Liquitex,#145B35,standard,approximate
+Regular,030,Phthalocyanine Green,Liquitex,#095D4B,standard,approximate
+Regular,154,Transparent Viridian Hue,Liquitex,#087D5A,transparent,approximate
+Regular,134,Phthalo Green Yellow Shade,Liquitex,#287D3E,standard,approximate
+Regular,077,Permanent Sap Green,Liquitex,#526B2E,standard,approximate
+Regular,031,Chromium Oxide Green,Liquitex,#516F40,standard,approximate
+Regular,032,Hooker's Green Hue,Liquitex,#3C7045,standard,approximate
+Regular,183,Muted Green,Liquitex,#448448,standard,approximate
+Regular,078,Viridian Hue,Liquitex,#317B63,standard,approximate
+Regular,126,Hooker's Green Deep Hue Permanent,Liquitex,#448448,standard,approximate
+Regular,083,Cobalt Green,Liquitex,#158A77,standard,approximate
+Regular,135,Cobalt Turquoise,Liquitex,#139B9B,standard,approximate
+Regular,033,Bright Aqua Green,Liquitex,#38B6A1,standard,approximate
+Regular,084,Turquoise Deep,Liquitex,#1B606D,standard,approximate
+Regular,184,Muted Turquoise,Liquitex,#4D8485,standard,approximate
+Regular,035,Permanent Light Blue,Liquitex,#69B6CE,standard,approximate
+Regular,036,Brilliant Blue,Liquitex,#007EB4,standard,approximate
+Regular,127,Manganese Blue Hue,Liquitex,#298EBC,standard,approximate
+Regular,037,Cerulean Blue,Liquitex,#238FB5,standard,approximate
+Regular,038,Cerulean Blue Hue,Liquitex,#388EBD,standard,approximate
+Regular,039,Light Blue Violet,Liquitex,#858FCA,standard,approximate
+Regular,157,Phthalocyanine Blue Red Shade,Liquitex,#27377F,standard,approximate
+Regular,040,Cobalt Blue,Liquitex,#2A5EAD,standard,approximate
+Regular,156,Indanthrene Blue,Liquitex,#293D66,standard,approximate
+Regular,041,Brilliant Blue Purple,Liquitex,#63589E,standard,approximate
+Regular,042,Phthalocyanine Blue,Liquitex,#05446A,standard,approximate
+Regular,043,Ultramarine Blue,Liquitex,#373E9C,standard,approximate
+Regular,137,French Ultramarine Blue,Liquitex,#38369A,standard,approximate
+Regular,162,Prussian Blue Hue,Liquitex,#16344D,standard,approximate
+Regular,125,Deep Violet,Liquitex,#35244E,standard,approximate
+Regular,131,Quinacridone Blue Violet,Liquitex,#57296C,standard,approximate
+Regular,044,Prism Violet,Liquitex,#7552AF,standard,approximate
+Regular,045,Dioxazine Purple,Liquitex,#342465,standard,approximate
+Regular,046,Brilliant Purple,Liquitex,#8159AC,standard,approximate
+Regular,047,Permanent Light Violet,Liquitex,#A580C5,standard,approximate
+Regular,158,Transparent Raw Sienna,Liquitex,#A96829,transparent,approximate
+Regular,160,Transparent Burnt Sienna,Liquitex,#945134,transparent,approximate
+Regular,048,Raw Sienna,Liquitex,#B98144,standard,approximate
+Regular,049,Red Oxide,Liquitex,#99503C,standard,approximate
+Regular,050,Burnt Sienna,Liquitex,#99502B,standard,approximate
+Regular,138,Quinacridone Burnt Orange,Liquitex,#A25436,standard,approximate
+Regular,153,Indian Yellow,Liquitex,#C8841A,standard,approximate
+Regular,051,Liquitex Yellow,Liquitex,#E1AC23,standard,approximate
+Regular,052,Yellow Oxide,Liquitex,#B78B35,standard,approximate
+Regular,053,Bronze Yellow,Liquitex,#937132,standard,approximate
+Regular,161,Transparent Burnt Umber,Liquitex,#573D2F,transparent,approximate
+Regular,159,Transparent Raw Umber,Liquitex,#6F624C,transparent,approximate
+Regular,054,Raw Umber,Liquitex,#675542,standard,approximate
+Regular,055,Burnt Umber,Liquitex,#594131,standard,approximate
+Regular,128,Van Dyke Red Hue,Liquitex,#663C39,standard,approximate
+Regular,074,Unbleached Titanium,Liquitex,#D3C29E,standard,approximate
+Regular,075,Parchment,Liquitex,#DDD4BA,standard,approximate
+Regular,056,Ivory Black,Liquitex,#252526,standard,approximate
+Regular,057,Mars Black,Liquitex,#201D1D,standard,approximate
+Regular,058,Payne's Gray,Liquitex,#454C60,standard,approximate
+Regular,185,Muted Gray,Liquitex,#6A6669,standard,approximate
+Regular,060,Neutral Gray 4,Liquitex,#9E9E9D,standard,approximate
+Regular,061,Neutral Gray 5,Liquitex,#858585,standard,approximate
+Regular,063,Neutral Gray 7,Liquitex,#565657,standard,approximate
+Regular,065,Titanium White,Liquitex,#F7F5EE,standard,approximate
+Regular,140,Zinc White,Liquitex,#F8F7F2,standard,approximate
+Regular,142,Rich Bronze,Liquitex,#8E6A42,metallic,approximate
+Regular,143,Rich Copper,Liquitex,#9C6341,metallic,approximate
+Regular,068,Bright Gold,Liquitex,#C69F54,metallic,approximate
+Regular,145,Rich Gold,Liquitex,#C6A451,metallic,approximate
+Regular,146,Antique Gold,Liquitex,#AA8C55,metallic,approximate
+Regular,070,Bright Silver,Liquitex,#B9BBC0,metallic,approximate
+Regular,147,Rich Silver,Liquitex,#B7BBC1,metallic,approximate
+Regular,071,Pearl White,Liquitex,#E9E7E0,metallic,approximate
+Regular,091,Fluorescent Pink,Liquitex,#FF409A,fluorescent,approximate
+Regular,092,Fluorescent Red,Liquitex,#FF403A,fluorescent,approximate
+Regular,093,Fluorescent Orange,Liquitex,#FF8028,fluorescent,approximate
+Regular,094,Fluorescent Yellow,Liquitex,#FDF724,fluorescent,approximate
+Regular,095,Fluorescent Green,Liquitex,#A6F731,fluorescent,approximate
+Regular,096,Fluorescent Blue,Liquitex,#227DE5,fluorescent,approximate
+Regular,234,Iridescent Rose Gold,Liquitex,#BA807F,metallic,approximate
+Regular,235,Iridescent Black,Liquitex,#424246,metallic,approximate
+Regular,239,Transparent Orange,Liquitex,#D97A2D,transparent,approximate
+Regular,236,Pale Bismuth Yellow,Liquitex,#EBDEA1,standard,approximate
+Regular,237,Light Phthalocyanine Green,Liquitex,#4FBE94,standard,approximate
+Regular,238,Indigo,Liquitex,#263354,standard,approximate
+Custom,623,Yellow Ochre,Turner U-35,#C39447,standard,approximate
